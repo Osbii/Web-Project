@@ -1,0 +1,67 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   text-align: center;
+    background-color: #0D1F23;
+}
+*{box-sizing: border-box;}
+input[type=text], input[type=password]{
+    width: 20%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline;
+    border-radius: 10px;
+    background-color: #5A636A;
+}
+label{
+    font-size: 12px;
+}
+input[type=text]:focus, input[type=password]:focus{
+    background-color: #5A636A;
+    outline: #2D4A53;
+}
+
+
+
+button{
+    font-size: 18px;
+
+    font-weight: bold;
+
+    background-color: #132E35;
+
+    color: white;
+
+    padding: 14px 20px;
+
+    margin: 8px 0;
+
+    border-radius: 10px;
+
+    cursor: pointer;
+
+    width: 10%;
+
+    opacity: 0.9;
+
+}
+
+button:hover{
+
+    opacity:1;
+    transition: 0.9s;
+
+}
+
+.formcontainer{
+
+    padding: 16px;
+
+    border-radius: 100px;
+
+}
+
+.formcontainer p{
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
